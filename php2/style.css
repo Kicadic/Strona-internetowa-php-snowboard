@@ -1,0 +1,213 @@
+	a{
+	color:inherit;
+	text-decoration: none;
+	 }
+	#container
+	{	
+		
+		width:auto;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;	
+	}
+	#calosc
+	{
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;
+	}
+	
+	#banner
+	{
+		background-color:#6CA3BC;
+		color:#00000;
+		padding:15px;
+		text-align:center;	
+	}
+	#logo:after
+	{
+		content: "Wyszukaj";
+	}
+
+	#nav
+	{	
+		position:relative;
+		background-color:#518DA8;
+		width:1000px;
+		padding:10px;
+		left:235px;
+	}
+
+	#glowny
+	{
+		float:right;
+		padding: 20px;
+		width: 760px;
+		height:auto;
+		background-color:white;
+		color:black;
+	
+	}
+	#sidebar
+	{
+		float:left;
+		background-color:white;
+		width:160px;
+		text-align:center;
+		font-size:18px;
+		padding:10px;
+		border-right:2px dotted #666666	
+		height:auto;
+    max-height:150%;
+    overflow:auto;  
+	}
+	.sidebarOption
+	{
+		clear:both;		
+	}
+	
+	#czas
+	{		
+		border-bottom:1px solid #666666;	
+	}
+
+	
+
+	.logowanie
+	{
+			float:right;
+			min-width:50 px;
+			height:25 px;
+			font-size:18px;
+			padding: 10px;
+			border-left:2px solid #444444;	
+	}
+	.logowanie:hover
+	{
+		background-color:#547C8E;
+		cursor:pointer;	
+	}
+	
+	.logowanie2:hover
+	{
+		background-color:#547C8E;
+		cursor:pointer;
+	}
+
+	.option
+	{
+			float:left;
+			min-width:100 px;
+			height:30 px;
+			font-size:18px;
+			padding: 10px;
+			border-right:2px solid #444444;
+	}
+	.option:hover
+	{
+		
+		background-color:#547C8E;
+		cursor:pointer;
+	}
+	
+	.zdj1
+	{	
+		opacity:0.75;
+		font-size:100px;
+		background-image: url("img/Snowboard-Banner.jpg");
+		padding-left:25px;
+		padding-right:25px;
+		padding-top:10px;
+		padding-bottom:10px;
+		
+	}
+	.zdj1:hover
+	{	
+		opacity:1;
+		cursor:pointer;
+		position:static;
+		
+	}
+	
+	.zdj2
+	{	
+		opacity:0.75;
+		font-size:100px;
+		padding-left:229px;
+		padding-right:229px;
+		padding-top:10px;
+		padding-bottom:10px;
+		background-image: url("img/shop.jpg");
+		
+	}
+	.zdj2:hover
+	{	
+		opacity:1;
+		cursor:pointer;
+		position:static;
+		
+	}
+	.zdj3
+	{	
+		opacity:0.75;
+		font-size:100px;
+		padding-left:208px;
+		padding-right:208px;
+		padding-top:10px;
+		padding-bottom:10px;
+		background-image: url("img/3.png");
+		
+	}
+	.zdj3:hover
+	{	
+		opacity:1;
+		cursor:pointer;
+		position:static;
+		
+	}
+
+
+
+.form-container 
+{
+  max-width: 120px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container textarea 
+{
+  width: 120px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus 
+{
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .btn:hover, .open-button:hover
+ {
+  opacity: 1;
+}
